@@ -1,2 +1,2 @@
 # UpConstruction-Page
-A web page for construction company that serves as an online presence for a company that provides construction services to clients. The webpage serves as a platform for the company to showcase their portfolio of work, list their services, and communicate their expertise and capabilities to potential clients.It is user-friendly and easy to navigate, with clear sections and menus that allow visitors to quickly find the information they need. 
+Sample of web page for construction company 
