@@ -1,0 +1,439 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1296px;
+  padding: 0px 12px;
+}
+/* 
+
+
+section a*/
+
+.a .carousel-item img {
+  height: 100vh;
+}
+.bg {
+  background-color: #000000a8;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+}
+
+button .bg-span {
+  width: 55px;
+  height: 55px;
+  background-color: #ffffff40;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav .container {
+  position: relative;
+}
+.nav .container nav {
+  position: absolute;
+  top: 0px px;
+  z-index: 3;
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+  padding-top: 34px;
+}
+.nav .container nav .navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+.a .nav .container nav .navbar-brand h1 {
+  font-size: 24.5px;
+  color: white;
+  display: block;
+  margin-bottom: 0px;
+}
+.a .nav .container nav .navbar-brand span {
+  color: #feb900;
+  position: relative;
+  left: -6px;
+}
+
+.bg-light {
+  background-color: unset !important;
+}
+.a nav .navbar-collapse li .nav-link {
+  color: #f8f9fabd !important;
+}
+.a nav .navbar-collapse li .nav-link {
+  color: #f8f9fabd !important;
+}
+
+.a nav .navbar-collapse li .nav-link:hover,
+.a nav .navbar-collapse li .nav-link .active:focus,
+.a nav .navbar-collapse li .nav-link .active:active {
+  color: white !important;
+  border-bottom: 3px solid #feb900;
+  padding-bottom: 4px;
+}
+.welcome {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  height: 721px;
+  align-items: center;
+}
+.welcome2 {
+  position: absolute;
+  z-index: 4;
+  width: 606px;
+  color: white;
+  text-align: center;
+}
+.welcome2 h1 {
+  font-size: 59px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.welcome2 h1:last-of-type {
+  padding-bottom: 23px;
+  margin-bottom: 23px;
+}
+.welcome2 h1:last-of-type::before {
+  content: "";
+  height: 4px;
+  width: 80px;
+  background-color: #feb900;
+  position: absolute;
+  display: block;
+  bottom: 40px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  margin: auto;
+}
+.welcome2 button {
+  color: white;
+  padding: 13px 37px;
+  font-weight: 500;
+  border-radius: 27px;
+}
+.welcome2 p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+/* 
+
+
+
+section b */
+.b {
+  background-color: #f5f6f7;
+}
+.b .container .row {
+padding: 70px 0;
+}
+.b .container .row .col-6 {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.b .container .row .form {
+  background-color: white;
+  height: 520px;
+}
+
+.b .container .row .form form {
+  margin: 25px;
+  text-align: center;
+}
+.b .container .row .form form h5 {
+  font-size: 15px;
+  text-align: left;
+}
+.b .container .row .form form p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+.b .container .row .col-6 .form form .form-control {
+  margin: 15px 0px;
+  border-radius: 0px;
+  padding: 15px 10px;
+  font-weight: 400;
+}
+.b .container .row .col-6 .form form button {
+  color: white;
+  padding: 12px 26px;
+  font-weight: 500;
+}
+
+.b .container .row .content-form h1 {
+  color: #52565e;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.b .container .row .content-form h1 span::after {
+  content: "";
+  height: 5px;
+  width: 64px;
+  background-color: #feb900;
+  position: absolute;
+  top: -50px;
+  bottom: 0px;
+  left: 16px;
+  margin: auto;
+}
+.b .container .row .content-form p:first-of-type {
+  margin-top: 51px;
+}
+.b .container .row .content-form p {
+  text-align: justify;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* 
+
+
+
+section c */
+
+.c .constructions {
+  width: 100%;
+  background-color: white;
+}
+.c .constructions .head {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 65px 0px;
+}
+.c .constructions .head h1 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.c .constructions .head h1::before, .head h1::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #feb900;
+  margin: 10px;
+  display: inline-block;
+}
+
+.c .constructions .head p {
+  font-size: 17px;
+}
+.c .constructions .row {
+  margin-bottom: 55px;
+}
+.c .constructions .row .cardd {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 10px 0px;
+  height: 250px;
+  border: 1px solid rgba(82, 86, 94, 0.2);
+}
+.c .constructions .row .cardd .img {
+  width: 40%;
+  height: 100%;
+}
+.c .constructions .row .cardd .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.c .constructions .row .cardd .words {
+  width: 54%;
+  margin: auto;
+  padding: 36px;
+  text-align: left;
+  color: #52565e;
+}
+.c .constructions .row .cardd .words h2 {
+  font-size: 19px;
+  font-weight: 700;
+}
+.c .constructions .row .cardd .words p {
+  padding: 5px 0px;
+}
+/* 
+
+
+
+section d */
+
+.d .services {
+  width: 100%;
+  background-color: #f5f6f7;
+  padding-bottom: 30px;
+}
+.d .services .head {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0px;
+}
+.d .services .head h1 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.d .services .head h1::before, .head h1::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #feb900;
+  margin: 10px;
+  display: inline-block;
+}
+
+.d .services .head p {
+  font-size: 17px;
+}
+
+.d .services .container .row .service {
+  width: 100%;
+  height: 280px;
+  background-color: white;
+  margin-bottom: 30px;
+  color: #52565e;
+  padding: 36px;
+  position: relative;
+}
+.d .services .container .row .service:hover h2 {
+  border-bottom: 4px solid #feb900;
+}
+.d .services .container .row .service:hover .circle {
+  background-color: #feb900;
+}
+.d .services .container .row .service p span i {
+  font-size: 38px;
+  color: #52565e;
+  position: relative;
+  z-index: 4;
+}
+.d .services .container .row .service .circle {
+  width: 45px;
+  height: 45px;
+  background-color: #f5f6f7;
+  position: absolute;
+  border-radius: 50%;
+  top: 30px;
+  left: 50px;
+  z-index: 0;
+  transition: 0.5s all;
+}
+.d .services .container .row .service h2 {
+  font-size: 23px;
+  font-weight: 700;
+  border-bottom: 4px solid #f5f6f7;
+  display: inline-block;
+  padding-bottom: 10px;
+  transition: 0.5s all;
+}
+.d .services .container .row .service p:last-of-type {
+  font-size: 15px;
+}
+.d .services .container .row .service h3 {
+  font-size: 17px;
+  color: #feb900;
+  font-weight: 400;
+}
+/* 
+
+
+
+section e */
+.e .sec .container .row {
+  padding: 90px 0px;
+}
+.e .sec .container .row .img {
+  width: 100%;
+  height: 100%;
+}
+.e .sec .container .row .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.e .sec .container .row .nemos {
+  width: 94%;
+  color: #52565e;
+  padding-left: 30px;
+}
+.e .sec .container .row .nemos h1 {
+  font-size: 29px;
+  font-weight: 700;
+  color: #52565e;
+  margin-bottom: 40px;
+  position: relative;
+}
+.e .sec .container .row .nemos h1::after {
+  content: "";
+  width: 55px;
+  height: 3px;
+  background-color: #feb900;
+  position: absolute;
+  left: 0px;
+  top: 87px;
+}
+
+.e .sec .container .row .nemos p {
+  margin-bottom: 40px;
+}
+.e .sec .container .row .nemos .nemo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.e .sec .container .row .nemos .nemo:hover > .icon {
+  background-color: #feb900;
+}
+.e .sec .container .row .nemos .nemo:hover .icon span {
+  color: white;
+}
+.e .sec .container .row .nemos .nemo:hover .content h5 {
+  color: #feb900;
+}
+.e .sec .container .row .nemos .nemo .icon {
+  width: 56px;
+  height: 56px;
+  background-color: white;
+  box-shadow: 0px 0px 30px #80808030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: 0.5s all;
+}
+.e .sec .container .row .nemos .nemo .icon span {
+  font-size: 30px;
+  color: #feb900;
+}
+.e .sec .container .row .nemos .nemo .content {
+  width: 84%;
+}
+.e .sec .container .row .nemos .nemo .content h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.e .sec .container .row .nemos .nemo .content p {
+  font-size: 16px;
+}
